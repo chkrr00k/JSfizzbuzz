@@ -15,7 +15,7 @@ function fizzbuzz(max=100, min=1, cond={3 : "fizz", 5 : "buzz"}){
                 result += cond[tmp];
             }
         }
-        return result||inp;
+        return result || inp;
     };
     for(let i = min; i < max; i++){
         console.log(chcond(i));
